@@ -1,0 +1,72 @@
+---
+output: github_document
+---
+<!-- badges: start -->
+[![Launch Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IdoBar/3030NSC-workshops-binder/main)
+<!-- badges: end -->
+
+```{r setup, include=FALSE}
+pacman::p_load(htmltools, knitr, tidyverse, captioner, fontawesome, here)
+pacman::p_load_gh("gadenbuie/tweetrmd")
+# pacman::p_load_gh("mitchelloharawild/icons", update = FALSE)
+knitr::opts_chunk$set(echo = TRUE, fig.align='center')
+# setup figure and table captions
+figs <- captioner(prefix="Figure")
+figs(name="binder", "Binder launch screenshot.")
+figs(name="binder_export", "Download files from Binder/RStudio screenshot.")
+figs(name="rstudio_project", "Create a new project in RStudio screenshots.")
+```
+
+```{r gu_logo, echo=FALSE, out.width = '25%', fig.align='right', warning=FALSE}
+knitr::include_graphics("https://www.griffith.edu.au/__data/assets/image/0018/653121/Griffith_Full_Logo_scaled.png")
+```
+
+# 3030NSC Workshops (Binder-ready)
+
+This repository was developed as an educational tutorials/workshops for the Applied Bioinformatics course (3030NSC/7104ESC) offered at Griffith University (see [course details](https://www.griffith.edu.au/study/courses/applied-bioinformatics-3030NSC)). The tutorials cover basic bioinformatics skills taught in the course, particularly those based on command-line tools and R (for example retrieval of information and sequences from NCBI databases, multiple sequence alignment and phylogeny inference, differential gene expression analysis and visualisation in R using `DESeq2`, etc.).  
+The teaching material for the workshops were developed by Dr. Alex Cristion (a.cristino@griffith.edu.au) and Dr. Ido Bar (i.bar@griffith.edu.au)  and prepared as a [Binder](https://mybinder.org/) repository.   
+
+The tutorial is designed to be run live and interactively in class either  locally on the students' computers or using [Binder](https://mybinder.org/) through Jupyter and RStudio servers (see instructions below).
+
+## Instructions 
+
+<!-- ### `r  fa("r-project", fill = "#384CB7")` -->
+### R
+
+R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
+
+### RStudio
+
+RStudio is a set of integrated tools designed to help you be more productive with R. It includes a console, syntax-highlighting editor that supports direct code execution, and a variety of robust tools for plotting, viewing history, debugging and managing your workspace. It requires R to be installed prior to be able to send commands to the interpreter.
+
+### Using R and RStudio from Cloud services
+If we want to keep things simple (for this course) or we would like to use R on shared computers, where we can't install software, we can run R and Rstudio through a web client that is hosted on a remote server.  
+We will use the [Binder](https://mybinder.org/) service, which is free, easy to use and can be launched from a single GitHub repository (more about this in the workshop).  
+
+#### Launching Binder
+
+Using Binder is as simple as clicking on the Binder badge - [![Launch Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IdoBar/3030NSC-workshops-binder/main){target="_blank"} and choosing the appropriate server (Jupyter, RStudio or Terminal).  
+Alternatively, you can navigate to the [Binder](https://mybinder.org/){target="_blank"} homepage and enter the URL of this tutorial [GitHub repository](https://github.com/IdoBar/3030NSC-workshops-binder.git){target="_blank"} `https://github.com/IdoBar/3030NSC-workshops-binder.git` and click on the **launch** button (see screenshot in `r figs(name="binder",display="cite")` below).
+ 
+```{r binder, echo=FALSE, fig.cap=figs(name="binder"), out.width = '100%', warning=FALSE}
+knitr::include_graphics("https://github.com/IdoBar/6003ESC_workshops_binder/raw/main/figs/Screenshot_The_Binder_Project.png")
+```
+
+Now be patient while the environment is loading...  
+You should now see in your web browser the Binder interface, where you can choose the server to work with (Jupyter, Terminal or RStudio) and you can start working in "The Cloud"! `r  fa("cloud", fill ="#5599FF")``r  fa("cloud", fill ="#5599FF")``r  fa("cloud", fill ="#5599FF")`
+
+#### Downloading files from Binder
+We can upload and download files to the Binder environment using the file explorer on the left of the interface (use the `r fa("upload")` button to upload files and right click on a file/folder and select "Download" to download it). 
+
+If we are using RStudio, we can download any output files (summary tables and figures) by using the `files` tab in RStudio (bottom right pane).  
+Select the files/folders that you would like to download and click on `r  fa("cog", fill ="#4383A4")`More `r fa("long-arrow-alt-right")`Export... (see screenshot in `r figs(name="binder_export",display="cite")` below) to save the file on your computer.  
+
+```{r binder_export, echo=FALSE, fig.cap=figs(name="binder_export"), out.width = '75%', warning=FALSE}
+knitr::include_graphics("https://github.com/IdoBar/6003ESC_workshops_binder/raw/main/figs/Rstudio_export_screenshot.png")
+```
+
+### Additional Information
+
+For more details and instructions how to setup a similar repository, please visit [From Zero to Binder in R!](https://github.com/alan-turing-institute/the-turing-way/blob/master/workshops/boost-research-reproducibility-binder/workshop-presentations/zero-to-binder-r.md)
+
+
