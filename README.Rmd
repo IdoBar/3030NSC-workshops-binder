@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.align='center')
 # setup figure and table captions
 figs <- captioner(prefix="Figure")
 figs(name="binder", "Binder launch screenshot.")
+figs(name="binder_main", "Binder main screen and file access screenshot.")
 figs(name="binder_export", "Download files from Binder/RStudio screenshot.")
 figs(name="rstudio_project", "Create a new project in RStudio screenshots.")
 ```
@@ -31,6 +32,10 @@ The tutorial is designed to be run live and interactively in class either  local
 ## Instructions 
 
 <!-- ### `r  fa("r-project", fill = "#384CB7")` -->
+### Jupyter
+
+The Jupyter Notebook is an open source web application that you can use to create and share documents that contain live code (supporting over 40 computing languages, including Python, R, Julia, Linux Bash and many more), equations, visualizations, and text. Jupyter Notebook is maintained by the people at Project Jupyter. You can learn more about Jupyter Notebooks in the official [documentation](https://jupyter-notebook.readthedocs.io/en/stable/){target="_blank"} and in [Jupyter Notebook: An Introduction](https://realpython.com/jupyter-notebook-introduction/){target="_blank"} by Mark Driscoll
+
 ### R
 
 R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing. The R language is widely used among statisticians and data miners for developing statistical software and data analysis.
@@ -41,7 +46,7 @@ RStudio is a set of integrated tools designed to help you be more productive wit
 
 ### Using R and RStudio from Cloud services
 If we want to keep things simple (for this course) or we would like to use R on shared computers, where we can't install software, we can run R and Rstudio through a web client that is hosted on a remote server.  
-We will use the [Binder](https://mybinder.org/) service, which is free, easy to use and can be launched from a single GitHub repository (more about this in the workshop).  
+We will use the [Binder](https://mybinder.org/){target="_blank"} service, which is free, easy to use and can be launched from a single GitHub repository (more about this in the workshop).  
 
 #### Launching Binder
 
@@ -56,7 +61,11 @@ Now be patient while the environment is loading...
 You should now see in your web browser the Binder interface, where you can choose the server to work with (Jupyter, Terminal or RStudio) and you can start working in "The Cloud"! `r  fa("cloud", fill ="#5599FF")``r  fa("cloud", fill ="#5599FF")``r  fa("cloud", fill ="#5599FF")`
 
 #### Downloading files from Binder
-We can upload and download files to the Binder environment using the file explorer on the left of the interface (use the `r fa("upload")` button to upload files and right click on a file/folder and select "Download" to download it). 
+We can upload and download files to the Binder environment using the file explorer on the left of the interface (use the `r fa("upload")` button to upload files and right click on a file/folder and select "Download" to download it, see ). 
+
+```{r binder_main, echo=FALSE, fig.cap=figs(name="binder_main"), out.width = '75%', warning=FALSE}
+knitr::include_graphics("https://github.com/IdoBar/3030NSC-workshops-binder/raw/main/img/binder_main_menu.png")
+```
 
 If we are using RStudio, we can download any output files (summary tables and figures) by using the `files` tab in RStudio (bottom right pane).  
 Select the files/folders that you would like to download and click on `r  fa("cog", fill ="#4383A4")`More `r fa("long-arrow-alt-right")`Export... (see screenshot in `r figs(name="binder_export",display="cite")` below) to save the file on your computer.  

@@ -2,7 +2,7 @@
 output: github_document
 ---
 <!-- badges: start -->
-[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IdoBar/3030NSC_Workshop6_DGE/main?urlpath=rstudio)
+[![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IdoBar/3030NSC-workshops-binder/main?urlpath=rstudio)
 <!-- badges: end -->
 
 ```{r setup, include=FALSE}
@@ -24,8 +24,8 @@ knitr::include_graphics("https://www.griffith.edu.au/__data/assets/image/0018/65
 # 3030NSC Workshop6 - Differential Gene Expression (Binder-ready)
 
 This repository was developed as an educational tutorial/workshop for the Applied Bioinformatics course (3030NSC/7104ESC) offered at Griffith University (see [course details](https://www.griffith.edu.au/study/courses/applied-bioinformatics-3030NSC)). The tutorial covers basic differential gene expression analysis and visualisation in R using `DESeq2`.  
-The teaching material for the workshop was developed by Dr. Alex Cristion (a.cristino@griffith.edu.au) and prepared as a [Binder](https://mybinder.org/) repository by Dr. Ido Bar (i.bar@griffith.edu.au).   
-The tutorial is setup to be run live and interactively in class either setup locally on the students' computers or using [Binder](https://mybinder.org/) (see instructions below).
+The teaching material for the workshop was developed by Dr. Alex Cristion (a.cristino@griffith.edu.au) and prepared as a [Binder](https://mybinder.org/){target="_blank"} repository by Dr. Ido Bar (i.bar@griffith.edu.au).   
+The tutorial is setup to be run live and interactively in class either setup locally on the students' computers or using [Binder](https://mybinder.org/){target="_blank"} (see instructions below).
 
 ## Instructions 
 
@@ -40,12 +40,12 @@ RStudio is a set of integrated tools designed to help you be more productive wit
 
 ### Using R and RStudio from Cloud services
 If we want to keep things simple (for this course) or we would like to use R on shared computers, where we can't install software, we can run R and Rstudio through a web client that is hosted on a remote server.  
-We will use the [Binder](https://mybinder.org/) service, which is free, easy to use and can be launched from a single GitHub repository (more about this in the workshop).  
+We will use the [Binder](https://mybinder.org/){target="_blank"} service, which is free, easy to use and can be launched from a single GitHub repository (more about this in the workshop).  
 
 #### Running R and RStudio on Binder
 
-Using Binder is as simple as clicking on the Binder badge - [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IdoBar/3030NSC_Workshop6_DGE/main?urlpath=rstudio){target="_blank"}.  
-Alternatively, you can navigate to the [Binder](https://mybinder.org/){target="_blank"} homepage and enter the URL of this tutorial [GitHub repository](https://github.com/IdoBar/3030NSC_Workshop6_DGE.git){target="_blank"} `https://github.com/IdoBar/3030NSC_Workshop6_DGE.git` and click on the **launch** button (see screenshot in `r figs(name="binder",display="cite")` below).
+Using Binder is as simple as clicking on the Binder badge - [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IdoBar/3030NSC-workshops-binder/main?urlpath=rstudio){target="_blank"}.  
+Alternatively, you can navigate to the [Binder](https://mybinder.org/){target="_blank"} homepage and enter the URL of this tutorial [GitHub repository](https://github.com/IdoBar/3030NSC-workshops-binder.git){target="_blank"} `https://github.com/IdoBar/3030NSC-workshops-binder.git` and click on the **launch** button (see screenshot in `r figs(name="binder",display="cite")` below).
  
 ```{r binder, echo=FALSE, fig.cap=figs(name="binder"), out.width = '100%', warning=FALSE}
 knitr::include_graphics("https://github.com/IdoBar/6003ESC_workshops_binder/raw/main/figs/Screenshot_The_Binder_Project.png")

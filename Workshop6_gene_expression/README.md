@@ -2,7 +2,7 @@
 <!-- badges: start -->
 
 [![Launch Rstudio
-Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IdoBar/3030NSC_Workshop6_DGE/main?urlpath=rstudio)
+Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/IdoBar/3030NSC-workshops-binder/main?urlpath=rstudio)
 <!-- badges: end -->
 
 <img src="https://www.griffith.edu.au/__data/assets/image/0018/653121/Griffith_Full_Logo_scaled.png" width="25%" style="display: block; margin: auto 0 auto auto;" />
@@ -17,11 +17,12 @@ The tutorial covers basic differential gene expression analysis and
 visualisation in R using `DESeq2`.  
 The teaching material for the workshop was developed by Dr. Alex
 Cristion (<a.cristino@griffith.edu.au>) and prepared as a
-[Binder](https://mybinder.org/) repository by Dr. Ido Bar
-(<i.bar@griffith.edu.au>).  
+<a href="https://mybinder.org/" target="_blank">Binder</a> repository by
+Dr. Ido Bar (<i.bar@griffith.edu.au>).  
 The tutorial is setup to be run live and interactively in class either
 setup locally on the students’ computers or using
-[Binder](https://mybinder.org/) (see instructions below).
+<a href="https://mybinder.org/" target="_blank">Binder</a> (see
+instructions below).
 
 ## Instructions
 
@@ -48,23 +49,24 @@ interpreter.
 If we want to keep things simple (for this course) or we would like to
 use R on shared computers, where we can’t install software, we can run R
 and Rstudio through a web client that is hosted on a remote server.  
-We will use the [Binder](https://mybinder.org/) service, which is free,
-easy to use and can be launched from a single GitHub repository (more
-about this in the workshop).
+We will use the
+<a href="https://mybinder.org/" target="_blank">Binder</a> service,
+which is free, easy to use and can be launched from a single GitHub
+repository (more about this in the workshop).
 
 #### Running R and RStudio on Binder
 
 Using Binder is as simple as clicking on the Binder badge - <a
-href="https://mybinder.org/v2/gh/IdoBar/3030NSC_Workshop6_DGE/main?urlpath=rstudio"
+href="https://mybinder.org/v2/gh/IdoBar/3030NSC-workshops-binder/main?urlpath=rstudio"
 target="_blank"><img src="http://mybinder.org/badge_logo.svg"
 alt="Launch Rstudio Binder" /></a>.  
 Alternatively, you can navigate to the
 <a href="https://mybinder.org/" target="_blank">Binder</a> homepage and
 enter the URL of this tutorial
-<a href="https://github.com/IdoBar/3030NSC_Workshop6_DGE.git"
+<a href="https://github.com/IdoBar/3030NSC-workshops-binder.git"
 target="_blank">GitHub repository</a>
-`https://github.com/IdoBar/3030NSC_Workshop6_DGE.git` and click on the
-**launch** button (see screenshot in Figure 1 below).
+`https://github.com/IdoBar/3030NSC-workshops-binder.git` and click on
+the **launch** button (see screenshot in Figure 1 below).
 
 <div class="figure" style="text-align: center">
 
