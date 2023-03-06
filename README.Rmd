@@ -61,7 +61,9 @@ Now be patient while the environment is loading...
 You should now see in your web browser the Binder interface, where you can choose the server to work with (Jupyter, Terminal or RStudio) and you can start working in "The Cloud"! `r  fa("cloud", fill ="#5599FF")``r  fa("cloud", fill ="#5599FF")``r  fa("cloud", fill ="#5599FF")`
 
 #### Downloading files from Binder
-We can upload and download files to the Binder environment using the file explorer on the left of the interface (use the `r fa("upload")` button to upload files and right click on a file/folder and select "Download" to download it, see ). 
+
+We can upload and download files to the Binder environment using the file explorer on the left of the interface (use the `r fa("upload")` button to upload files and right click on a file/folder and select "Download" to download it, see screenshot in `r figs(name="binder_main",display="cite")` below). 
+
 
 ```{r binder_main, echo=FALSE, fig.cap=figs(name="binder_main"), out.width = '75%', warning=FALSE}
 knitr::include_graphics("https://github.com/IdoBar/3030NSC-workshops-binder/raw/main/img/binder_main_menu.png")

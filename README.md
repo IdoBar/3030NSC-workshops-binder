@@ -32,6 +32,19 @@ instructions below).
 
 <!-- ### ![](README_files/figure-gfm/fa-icon-4e1ff21742f03e860864476dae02cf91.svg){height=1em width=1.13em} -->
 
+### Jupyter
+
+The Jupyter Notebook is an open source web application that you can use
+to create and share documents that contain live code (supporting over 40
+computing languages, including Python, R, Julia, Linux Bash and many
+more), equations, visualizations, and text. Jupyter Notebook is
+maintained by the people at Project Jupyter. You can learn more about
+Jupyter Notebooks in the official
+<a href="https://jupyter-notebook.readthedocs.io/en/stable/"
+target="_blank">documentation</a> and in
+<a href="https://realpython.com/jupyter-notebook-introduction/"
+target="_blank">Jupyter Notebook: An Introduction</a> by Mark Driscoll
+
 ### R
 
 R is a programming language and free software environment for
@@ -53,9 +66,10 @@ interpreter.
 If we want to keep things simple (for this course) or we would like to
 use R on shared computers, where we can’t install software, we can run R
 and Rstudio through a web client that is hosted on a remote server.  
-We will use the [Binder](https://mybinder.org/) service, which is free,
-easy to use and can be launched from a single GitHub repository (more
-about this in the workshop).
+We will use the
+<a href="https://mybinder.org/" target="_blank">Binder</a> service,
+which is free, easy to use and can be launched from a single GitHub
+repository (more about this in the workshop).
 
 #### Launching Binder
 
@@ -98,7 +112,17 @@ We can upload and download files to the Binder environment using the
 file explorer on the left of the interface (use the <img
 src="README_files/figure-gfm/fa-icon-bec7d79858c194ffd22334cf8751fe4d.svg"
 style="width:1em;height:1em" /> button to upload files and right click
-on a file/folder and select “Download” to download it).
+on a file/folder and select “Download” to download it, see screenshot in
+Figure 2 below).
+
+<div class="figure" style="text-align: center">
+
+<img src="https://github.com/IdoBar/3030NSC-workshops-binder/raw/main/img/binder_main_menu.png" alt="Figure  2: Binder main screen and file access screenshot." width="75%" />
+<p class="caption">
+Figure 2: Binder main screen and file access screenshot.
+</p>
+
+</div>
 
 If we are using RStudio, we can download any output files (summary
 tables and figures) by using the `files` tab in RStudio (bottom right
@@ -108,14 +132,14 @@ Select the files/folders that you would like to download and click on
 src="README_files/figure-gfm/fa-icon-53e5124836ad6f0251c100a082e4c38c.svg"
 style="width:1em;height:1em" />More <img
 src="README_files/figure-gfm/fa-icon-9c4b7891d944df9651aec42eb5d609d3.svg"
-style="width:1em;height:1em" />Export… (see screenshot in Figure 2
+style="width:1em;height:1em" />Export… (see screenshot in Figure 3
 below) to save the file on your computer.
 
 <div class="figure" style="text-align: center">
 
-<img src="https://github.com/IdoBar/6003ESC_workshops_binder/raw/main/figs/Rstudio_export_screenshot.png" alt="Figure  2: Download files from Binder/RStudio screenshot." width="75%" />
+<img src="https://github.com/IdoBar/6003ESC_workshops_binder/raw/main/figs/Rstudio_export_screenshot.png" alt="Figure  3: Download files from Binder/RStudio screenshot." width="75%" />
 <p class="caption">
-Figure 2: Download files from Binder/RStudio screenshot.
+Figure 3: Download files from Binder/RStudio screenshot.
 </p>
 
 </div>
