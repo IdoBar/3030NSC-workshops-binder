@@ -38,5 +38,6 @@ dependencies:
   - phyml
   - bioconvert
   - probcons
+  - mrbayes
   - bash_kernel
   - calysto_bash
