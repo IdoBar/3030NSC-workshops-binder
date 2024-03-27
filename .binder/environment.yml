@@ -4,6 +4,14 @@ channels:
 dependencies:
   - r-base=3.6
   - r-tidyverse
+  - r-esquisse
+  - r-skimr
+  - r-plotly
+  - r-paletteer
+  - r-patchwork
+  - r-visdat
+  - r-scales
+  - r-mass
   - r-rcpp
   - bioconductor-biocinstaller
   - bioconductor-enhancedvolcano
